@@ -6,9 +6,9 @@ console.log(first);
 var last = mySentence.charAt(mySentence.length-1); //0 based index, 5 -1 =4, T
 console.log(last);
 
-function middle(){
-  return mySentence.slice(1, 4);
-}
+// function middle(){
+//   return mySentence.slice(1, /[[:>:]]/gi);
+// }
 
 function newString(){
  return(first.toUpperCase() + last.toUpperCase());
@@ -20,12 +20,13 @@ function reverseString (){
   return firstAndLast.charAt(1) + firstAndLast.charAt(0);
 }
 
-function solution(){
-  var x = reverseString(mySentence)
+// function solution(){
+//   var x = reverseString(mySentence)
+//
+// }
 
-}
-
-alert(reverseString(mySentence) + middle(mySentence));
+// alert(reverseString(mySentence) + middle(mySentence));
+alert(reverseString(mySentence));
 
 // function newString(mySentence){
 //   var first = mySentence.charAt(0);
